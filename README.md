@@ -19,7 +19,8 @@ To run this app we need to prerequisiteis install docker if you don'e have it on
   `GITHUB_TOKEN`
   
  
- Create a github token or app token to github and save it on 
+ Create a github token or app token to github and save it in the `.env` file
+ fill up the other params
  
 `docker-compose up`
   
