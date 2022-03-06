@@ -1,0 +1,23 @@
+{
+  "name": "allero-backend-work",
+  "version": "1.0.0",
+  "description": "Allero backend assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "allero"
+  ],
+  "author": "Yoni Hodeffi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15"
+  }
+}
