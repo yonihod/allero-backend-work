@@ -74,4 +74,8 @@ router.get('/org/:orgName/daily-runs/:workflowId?', async (req,res)=> {
     }
 })
 
+router.post('/refresh-data', (req,res)=> {
+
+})
+
 module.exports = router
