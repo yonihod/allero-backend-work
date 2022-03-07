@@ -1,7 +1,6 @@
 const router = require('express').Router();
 const {api} = require('../services/axios');
 const Workflow = require('../model/Workflow');
-const workflow = require('../model/Workflow');
 
 class Route {
     path;
